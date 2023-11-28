@@ -1,0 +1,166 @@
+@media (max-width:990px){
+  /* nav  section */
+  nav{
+padding-inline: 30px;
+  } 
+  nav .nav-links{
+    position: absolute;
+    background-color: #fff;
+    top:100%;
+   left:-100%;
+   padding-block: 10px;
+    width: 100%;
+    z-index:999;
+    transition:.3s ease-in-out
+  }
+  nav .nav-links.active{
+    left: 0;
+  }
+
+  nav .nav-links ul{
+    flex-direction: column;
+  }
+  nav #menuBar{
+    display: block;
+  }
+}
+@media  (max-width:970px){
+  .sub-footer{
+    padding: 20px 100px;}
+}
+@media (max-width:910px){
+  footer{
+    padding-inline:30px
+  }
+  footer .fContent{
+    width: calc(50% - 20px);
+  }
+}
+@media (max-width:810px){
+  .sub-footer{
+    flex-direction: column;
+    gap: 20px;
+  }
+  .sub-footer .terms-conditions{
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+ }
+@media (max-width:768px) {
+  /* header section */
+  header{
+    padding-inline: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+  .headerLeft{
+    width:100%;
+  }
+  .headerRight{
+    width:100%;
+    
+  }
+  .headerRight img{
+    width: 80%;
+  }
+/* company section */
+.companies-section{
+  padding-inline: 30px;
+}
+
+/* feature section */
+  .feature-section .innerDiv{
+    background-image: none;
+  }
+  .feature{
+    width: calc(50% - 20px);
+  }
+  /* big feature section */
+  .big-feature-section{
+    padding-inline: 30px;
+    flex-direction: column;
+    gap:30px
+
+  }
+   .big-feature-section.two{
+    flex-direction: column-reverse;
+   }
+  .bfsLeft{
+    width: 100%;
+  }
+  .bfsRight{
+
+    width: 100%;
+
+  }
+  
+  /* example-section */
+  .example-section{
+    padding-inline: 30px;
+  }
+  .example-section .example{
+    width: calc(50% - 20px);
+  }
+  .example-section a .bgGradient{
+    min-height: 250px;
+  }
+  /* cta-section */
+  .cta-section{
+    padding-inline: 30px;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .ctaLeft{
+    width: 100%;
+  }
+  .ctaRight{
+    width: 100%;
+  }
+  .ctaRight img{
+    width: 80%;
+  }
+  /* trialDiv-section */
+.trialDiv{
+  padding-inline: 30px;
+}
+}
+@media (max-width: 605px) {
+  /* feature-section */
+  .feature{
+    width: 100%;
+  }
+}
+@media (max-width:560px){
+  footer{
+    justify-content: center;
+  }
+  footer .fContent{
+    width: calc(100% - 20px);
+   align-items: center;
+    text-align: center;
+    gap: 10px;
+  }
+
+}
+@media (max-width:540px){
+  /* cta-section */
+  .panels{
+    flex-direction: column;
+    gap: 0px;
+  }
+  .ctaRight{
+    display: none;
+  }
+}
+@media (max-width:480px){
+  /* exampl-section */
+  .example-section .example{
+    width: 100%;
+  }
+  .example-section a .bgGradient{
+    min-height: 180px;
+  }
+}
